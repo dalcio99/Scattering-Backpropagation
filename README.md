@@ -8,6 +8,11 @@ Nicola Dal Cin, Florian Marquardt, Clara C. Wanjura
 
 As deep learning applications continue to deploy increasingly large artificial neural networks, the associated high energy demands are creating a need for alternative neuromorphic approaches. Optics and photonics are particularly compelling platforms as they offer high speeds and energy efficiency. Neuromorphic systems based on nonlinear optics promise high expressivity with a minimal number of parameters. However, so far, there is no efficient and generic physics-based training method allowing us to extract gradients for the most general class of nonlinear optical systems. In this work, we present Scattering Backpropagation, an efficient method for experimentally measuring approximated gradients for nonlinear optical neural networks. Remarkably, our approach does not require a mathematical model of the physical nonlinearity, and only involves two scattering experiments to extract all gradient approximations. The estimation precision depends on the deviation from reciprocity. We successfully apply our method to well-known benchmarks such as XOR and MNIST. Scattering Backpropagation is widely applicable to existing state-of-the-art, scalable platforms, such as optics, microwave, and also extends to other physical platforms such as electrical circuits.
 
+------------------------
+
+![image](/figures/figure0.jpg)
+
+------------------------
 
 ## Description
 
