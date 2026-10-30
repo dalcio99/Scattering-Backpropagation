@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Code for: Training nonlinear optical neural networks with Scattering Backpropagation"
+authors:
+  - family-names: "Dal Cin"
+    given-names: "Nicola"
+  - family-names: "Marquardt"
+    given-names: "Florian"
+  - family-names: "Wanjura"
+    given-names: "Clara C."
+license: MIT
+# doi: 10.5281/zenodo.XXXXXXX   # [TODO: <- fill in after the Zenodo deposit]
+preferred-citation:
+  type: article
+  title: "Training nonlinear optical neural networks with Scattering Backpropagation"
+  authors:
+    - family-names: "Dal Cin"
+      given-names: "Nicola"
+    - family-names: "Marquardt"
+      given-names: "Florian"
+    - family-names: "Wanjura"
+      given-names: "Clara C."
+  journal: "arXiv preprint arXiv:2508.11750"
