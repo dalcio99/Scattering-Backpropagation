@@ -1,0 +1,15 @@
+# Conda environment used for all simulations in the paper.
+#   conda env create -f environment.yml && conda activate sb-env
+name: sb-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.0
+  - scipy=1.16
+  - matplotlib=3.10
+  - jupyter            # for the notebook studies
+  - pip
+  - pip:
+      - jax==0.7.2     # CPU is sufficient for all studies
+      - jaxlib==0.7.2
